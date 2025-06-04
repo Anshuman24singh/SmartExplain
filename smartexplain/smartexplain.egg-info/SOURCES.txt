@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+smartexplain/__init__.py
+smartexplain/cli.py
+smartexplain/explainer.py
+smartexplain.egg-info/PKG-INFO
+smartexplain.egg-info/SOURCES.txt
+smartexplain.egg-info/dependency_links.txt
+smartexplain.egg-info/entry_points.txt
+smartexplain.egg-info/requires.txt
+smartexplain.egg-info/top_level.txt
+tests/test_explainer.py

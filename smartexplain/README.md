@@ -1,0 +1,79 @@
+# smartexplain
+
+**Explain Python code like you're 5.**
+
+smartexplain is a simple CLI tool that takes Python code and provides easy-to-understand explanations — perfect for beginners or anyone wanting a clearer understanding of code snippets.
+
+---
+
+## Installation
+
+You can install smartexplain via pip (once published):
+
+```bash
+pip install smartexplain
+
+
+1. ##Using SmartExplain in your Python code
+Import and use the explain_code function to get explanations of Python code snippets:
+example :-
+from smartexplain import explain_code
+
+code = '''
+def greet(name):
+    print(f"Hello, {name}!")
+'''
+
+explanation = explain_code(code)
+print(explanation)
+
+
+
+
+2. ##Using SmartExplain from the command line (CLI)
+{To see all available CLI options: use
+smartexplain --help 
+}
+
+smartexplain --file example.py #Explain Python code from a file:
+smartexplain --code "print('Hello, World!')" #Explain a single line 
+smartexplain --clip #Explain code from clipboard
+smartexplain --file example.py --emoji-off #Explain Python code from a file without emojis
+smartexplain --file example.py --raw #Explain Python code from a file without formatting
+
+smartexplain --file example.py --json #Explain Python code from a file and output in JSON format
+
+
+
+
+## Features
+Explain Python code with beginner-friendly language.
+
+Supports input from file, inline string, or clipboard.
+
+Option to toggle emojis on/off.
+
+Output in plain text, formatted console, or JSON.
+
+Easy to extend and integrate into other tools.
+
+
+
+"Example program And output how this librabry works In CLI commands"
+
+Given a Python file as "exapmle.py" with content:
+def add(a, b):
+    return a + b
+
+Run:
+smartexplain --file test.py
+
+Output:
+Line 1: This defines a function called add that takes two inputs a and b.
+Line 2: It returns the sum of a and b.
+
+
+
+
+
+Made with ❤️ by ANSHUMAN SINGH

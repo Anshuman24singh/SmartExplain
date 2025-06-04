@@ -1,0 +1,3 @@
+📦 Line 1: From `smartexplain` import(s): explain_code.
+🧮 Line 3: Assigns value to variable(s): code.
+🖨️ Line 32: Prints output to the console.
